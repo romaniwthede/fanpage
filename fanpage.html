@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fan Page Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+      background-color: rgb(49, 109, 69);
+      color:white;
+    }
+
+    header, footer {
+      background: rgb(142, 189, 98);
+      color: rgb(255, 255, 255);
+      padding: 1rem;
+      
+    }
+
+    section {
+      padding: 2rem;
+    }
+
+    /* TODO: Students add Flexbox styling here */
+
+    .navbar {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .hero {
+      display: flex;
+    }
+
+    .about {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .gallery {
+      display: flex; 
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .gallery-item {
+      display:flex;
+      background: rgb(238, 238, 238);
+      border: 1px solid #ccc;
+      margin: 10px;
+      padding: 20px;
+      text-align: center;
+      align-items:center;
+      flex: 1 1 200px;
+      justify-content:center;
+    }
+
+    .footer-content {
+      display: flex;
+      justify-content:space-between;
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Gallery</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div>
+      <h1>Welcome to My Fan Page!</h1>
+      <p>This page is dedicated to my favorite music artist. Tyler, The Creator.</p>
+    </div>
+    <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Igor_-_Tyler%2C_the_Creator.jpg" alt="Fan Image">
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <img src="ahhh.jfif" alt="About Image" height="150"width="5000">
+    <div>
+      <h2>Why I’m a Fan</h2>
+      <p>I really love his albums and I like the stories within the albums. He has a lot of good and unique songs that I listen to a lot. He is also a funny person. </p>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery">
+    
+    <div class="gallery-item"><img class ="img" height="200px" src="https://wknc.org/wp-content/uploads/2021/07/81Bc1jyUXuL._SL1500_-1200x1199.jpg"></div>
+    <div class="gallery-item"><img class ="img" height="250px" src="https://s1.cdn.autoevolution.com/images/news/gallery/tyler-the-creators-eclectic-car-and-bike-collection-is-as-cool-as-he-is_3.jpg"></div>
+    <div class="gallery-item"><img class ="img" height="250px" src="https://www.rollingstone.com/wp-content/uploads/2019/05/TylerTheCreator_SamRock.jpg?w=1581&h=1054&crop=1"></div>
+    <div class="gallery-item"><img class ="img" height="250px" src="https://media1.popsugar-assets.com/files/thumbor/gWwg5aBYVVv4kbbsE2Zr4674Vlc=/2577x4000/filters:format_auto():quality(85):extract_cover()/2020/02/21/878/n/1922564/3cbba0538067b7b9_GettyImages-1202182767.jpg"></div>
+    <div class="gallery-item"><img class ="img" height="250px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJaTvLFYrTOYABQX1Oa5iZkkXM6V4yMD9ICw&s"></div>
+    <div class="gallery-item"><img class ="img" height="250px" src="https://i8.amplience.net/i/naras/tyler-the-creator-performs-2024"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 My Fan Page </p>
+      <p> Made with Flexbox ❤️</p>
+    </div>
+  </footer>
+
+</body>
+</html>
